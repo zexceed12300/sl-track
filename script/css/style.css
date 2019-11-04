@@ -1,0 +1,165 @@
+body {
+background: #efefef;
+font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+font-size: 14px;
+color: #444444;
+}
+
+.container{
+background: #ffffff;
+width: 920px;
+min-height: 100%;
+margin: 15px auto;
+padding: 15px;
+}
+
+img {
+width: auto;
+min-width: auto;
+height: auto;
+}
+
+#button_continue_1 {
+position: relative;
+top: 28px;
+bottom: -40px;
+font-weight: bold;
+background:#2C97DF;
+color:white;
+border-top:0;
+border-left:0;
+border-right:0;
+border-bottom:0;
+padding:5px 10px;
+width: auto;
+height: 100%;
+}
+
+#wait_msg0 {
+position: relative;
+top: 28px;
+color: #007bb4;
+font-size: 20px;
+font-weight: 800;
+}
+
+#wait_msg1 {
+position: relative;
+top: 28px;
+font-weight: 800;
+}
+
+@media screen and (max-width: 975px) {
+    body {
+    background: #ffffff;
+    }
+
+    .container {
+    width: 100%;
+    padding: 0px;
+    }
+
+    img {
+    width: 656px;
+    height: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+    background: #ffffff;
+    }
+
+    .container {
+    width: 100%;
+    padding: 0px;
+    }
+
+    img {
+    width: 620px;
+    height: auto;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    body {
+    background: #ffffff;
+    }
+
+    .container {
+    width: 100%;
+    padding: 0px;
+    }
+
+    img {
+    width: 600px;
+    height: auto;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+    body {
+    background: #ffffff;
+    font-size: 12px;
+    }
+
+    .container {
+    width: 100%;
+    padding: 0px;
+    }
+
+    img {
+    width: 540px;
+    height: auto;
+    }
+
+    #wait_msg0 {
+    font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+    background: #ffffff;
+    font-size: 12px;
+    }
+
+    .container {
+    width: 100%;
+    padding: 0px;
+    }
+
+    img {
+    width: 460px;
+    height: auto;
+    }
+
+    #wait_msg0 {
+    font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body {
+    background: #ffffff;
+    font-size: 10px;
+    }
+
+    .container {
+    width: 100%;
+    padding: 0px;
+    }
+
+    img {
+    width: 340px;
+    height: auto;
+    }
+
+    #wait_msg0 {
+    font-size: 16px;
+    }
+
+}
