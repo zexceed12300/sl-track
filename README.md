@@ -34,8 +34,18 @@ cd sl-track
 python3 sl-track.py
 ```   
 # HowTo Using sl-track
-```
-python3 sl-track.py --redirect https://example.com
-```
-replace "https//example.com" with url which will divert the victim there after accessing the fake shortlink/safelink.
+usage: sl-track.py [-h] [-r [URL]] [-T [enable/disable]] [-H [enable/disable]]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -r [URL], --redirect [URL]
+                        after click the continue button and waiting for 10
+                        second in phising page, victim redirect to ?? (ex:
+                        https://google.com)
+  -T [enable/disable], --tracking [enable/disable]
+                        enable/disable geolocation tracking. (default:
+                        disable)
+  -H [enable/disable], --harvester [enable/disable]
+                        enable/disable device information harvester. (default:
+                        enable)
 ### Enjoy!..
