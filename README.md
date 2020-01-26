@@ -34,6 +34,7 @@ cd sl-track
 python3 sl-track.py
 ```   
 # HowTo Using sl-track
+```
 usage: sl-track.py [-h] [-r [URL]] [-T [enable/disable]] [-H [enable/disable]]
 
 optional arguments:
@@ -48,4 +49,5 @@ optional arguments:
   -H [enable/disable], --harvester [enable/disable]
                         enable/disable device information harvester. (default:
                         enable)
+```                      
 ### Enjoy!..
