@@ -1,7 +1,7 @@
 # sl-track - GeoPosition Tracking
 Author : xzen@zexceed12300
 
-Version : 1.0(Stable)
+Version : 1.2 (stable)
 
 Facebook : https://www.facebook.com/profile.php?id=100011531026694
 
