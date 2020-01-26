@@ -34,6 +34,8 @@ cd sl-track
 python3 sl-track.py
 ```   
 # HowTo Using sl-track
+You should use port forwarding like ngrok,portmap,etc for forward your localhost webserver
+
 ```
 usage: sl-track.py [-h] [-r [URL]] [-T [enable/disable]] [-H [enable/disable]]
 
