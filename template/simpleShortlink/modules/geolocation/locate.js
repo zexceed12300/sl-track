@@ -13,7 +13,7 @@ function showPosition(position) {
 
   $.ajax({
     type: 'POST',
-    url: 'php/ajax.php',
+    url: 'modules/geolocation/ajax.php',
     data: {Lat: lat, Long: long, Acc: acc},
     mimType: 'text'
   });

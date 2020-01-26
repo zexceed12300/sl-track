@@ -12,7 +12,7 @@ $(document).ready(function(){
                     }
                     if (counter == 0) {
                         clearInterval(interval);
-                        window.location.replace("https://www.example.com/")
+                        window.location.replace("http://www.example.com/")
                     }
                     }, 1000);
 
